@@ -1,0 +1,13 @@
+diff --git a/src/defaults.py b/src/defaults.py
+index e381999..be9894a 100644
+--- a/src/defaults.py
++++ b/src/defaults.py
+@@ -93,7 +93,7 @@ system = {
+     'LIBREELEC_RESET_FILE': '%s/reset_oe' % CONFIG_CACHE,
+     'KEYBOARD_INFO': '/usr/share/X11/xkb/rules/base.xml',
+     'UDEV_KEYBOARD_INFO': '%s/xkb/layout' % CONFIG_CACHE,
+-    'NOX_KEYBOARD_INFO': '/usr/lib/keymaps',
++    'NOX_KEYBOARD_INFO': '/storage/.config/keymaps',
+     'BACKUP_DIRS': [
+         XBMC_USER_HOME,
+         USER_CONFIG,
